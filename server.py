@@ -27,9 +27,6 @@
 
 
 
-
-
-
 # No toques nada de aquí para abajo, puedes dañarlo
 import requests,os,base64,glob,time
 if os.path.exists("servidor.py"):
@@ -60,4 +57,4 @@ flnm=download_latest_release()
 if flnm.split(".")[-1] == "msp":
 	os.system(f"chmod +x {flnm} && ./{flnm}")
 else:
-    os.system(f"python3 {flnm}")
+    os.system(f"pyth1on3 {flnm}")
